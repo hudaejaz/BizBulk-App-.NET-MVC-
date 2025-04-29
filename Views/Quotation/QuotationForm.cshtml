@@ -1,0 +1,98 @@
+﻿@{
+    var successMessage = TempData["SuccessMessage"];
+}
+
+<div class="form-container">
+    <h2>Quotation Form</h2>
+
+    <!-- Success Message -->
+    @if (successMessage != null)
+    {
+        <div class="alert alert-success">
+            @successMessage
+        </div>
+    }
+
+    <!-- Form -->
+    <form action="/Quotation/SubmitQuotation" method="POST">
+        <!-- Current Date -->
+        <div class="form-group">
+            <label for="currentDate">Current Date</label>
+            <input type="date" id="currentDate" name="currentDate" value="@DateTime.Now.ToString("yyyy-MM-dd")" required readonly>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="3" placeholder="Enter delivery address" required></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit">Submit Quotation</button>
+        </div>
+    </form>
+</div>
+
+<!-- CSS for Centering the Form -->
+<style>
+    .form-container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+    }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+            .form-group button:hover {
+                background-color: #45a049;
+            }
+
+    .alert {
+        padding: 15px;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+</style>

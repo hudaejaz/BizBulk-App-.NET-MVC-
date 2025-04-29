@@ -1,0 +1,741 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BizBulkApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BizBulkApp.z4fmuhp9lh.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\AC.webp",
+      "PackagePath": "staticwebassets\\img\\AC.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\BIZBULK.png",
+      "PackagePath": "staticwebassets\\img\\BIZBULK.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\airfryer.jpg",
+      "PackagePath": "staticwebassets\\img\\airfryer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\airfryer.webp",
+      "PackagePath": "staticwebassets\\img\\airfryer.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\blender.jpg",
+      "PackagePath": "staticwebassets\\img\\blender.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\blender.webp",
+      "PackagePath": "staticwebassets\\img\\blender.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\bundle1.jpg",
+      "PackagePath": "staticwebassets\\img\\bundle1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\canonR100.jpg",
+      "PackagePath": "staticwebassets\\img\\canonR100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\canone05r7.jpg",
+      "PackagePath": "staticwebassets\\img\\canone05r7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\canonmiddleeast.jpg",
+      "PackagePath": "staticwebassets\\img\\canonmiddleeast.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\canonmirrorless.jpg",
+      "PackagePath": "staticwebassets\\img\\canonmirrorless.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\caonone0r8.jpg",
+      "PackagePath": "staticwebassets\\img\\caonone0r8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\charger.jpg",
+      "PackagePath": "staticwebassets\\img\\charger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\charger2.jpg",
+      "PackagePath": "staticwebassets\\img\\charger2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\chopper.webp",
+      "PackagePath": "staticwebassets\\img\\chopper.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal10.png",
+      "PackagePath": "staticwebassets\\img\\deal10.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal11.jpg",
+      "PackagePath": "staticwebassets\\img\\deal11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal2.jpg",
+      "PackagePath": "staticwebassets\\img\\deal2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal3.jpg",
+      "PackagePath": "staticwebassets\\img\\deal3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal4.jpg",
+      "PackagePath": "staticwebassets\\img\\deal4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal5.jpg",
+      "PackagePath": "staticwebassets\\img\\deal5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal6.jpg",
+      "PackagePath": "staticwebassets\\img\\deal6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal7.jpg",
+      "PackagePath": "staticwebassets\\img\\deal7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal8.jpg",
+      "PackagePath": "staticwebassets\\img\\deal8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\deal9.jpg",
+      "PackagePath": "staticwebassets\\img\\deal9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\doubledoorfridge.webp",
+      "PackagePath": "staticwebassets\\img\\doubledoorfridge.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\dslr.jpg",
+      "PackagePath": "staticwebassets\\img\\dslr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\electricKettlte.jpg",
+      "PackagePath": "staticwebassets\\img\\electricKettlte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\electricfan.jpg",
+      "PackagePath": "staticwebassets\\img\\electricfan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\electronics-store-twitter-header_23-2151168341.avif",
+      "PackagePath": "staticwebassets\\img\\electronics-store-twitter-header_23-2151168341.avif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\espressomachine.webp",
+      "PackagePath": "staticwebassets\\img\\espressomachine.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\f0f9e45724771f16745ad3f6f640d3ce.jpg",
+      "PackagePath": "staticwebassets\\img\\f0f9e45724771f16745ad3f6f640d3ce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\fridge.jpg",
+      "PackagePath": "staticwebassets\\img\\fridge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\fridge.webp",
+      "PackagePath": "staticwebassets\\img\\fridge.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\hotdeal.png",
+      "PackagePath": "staticwebassets\\img\\hotdeal.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\humidifier.webp",
+      "PackagePath": "staticwebassets\\img\\humidifier.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\images.jfif",
+      "PackagePath": "staticwebassets\\img\\images.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\images.jpg",
+      "PackagePath": "staticwebassets\\img\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\img2.jpg",
+      "PackagePath": "staticwebassets\\img\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\img3.webp",
+      "PackagePath": "staticwebassets\\img\\img3.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\infinixzero.jpg",
+      "PackagePath": "staticwebassets\\img\\infinixzero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\iphone.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\iphone12.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\iphone13.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\iphone7.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\iphonex.jpg",
+      "PackagePath": "staticwebassets\\img\\iphonex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\keyboard.jpg",
+      "PackagePath": "staticwebassets\\img\\keyboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\kitchen-appliances-history-evolution.jpg",
+      "PackagePath": "staticwebassets\\img\\kitchen-appliances-history-evolution.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop1.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop1.webp",
+      "PackagePath": "staticwebassets\\img\\laptop1.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop10.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop11.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop12.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop13.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop2.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop2.png",
+      "PackagePath": "staticwebassets\\img\\laptop2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop3.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop3.webp",
+      "PackagePath": "staticwebassets\\img\\laptop3.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop4.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop4.webp",
+      "PackagePath": "staticwebassets\\img\\laptop4.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop5.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop5.webp",
+      "PackagePath": "staticwebassets\\img\\laptop5.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop6.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop6.webp",
+      "PackagePath": "staticwebassets\\img\\laptop6.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop7.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop7.webp",
+      "PackagePath": "staticwebassets\\img\\laptop7.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop8.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop8.webp",
+      "PackagePath": "staticwebassets\\img\\laptop8.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\laptop9.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\lcd.jpg",
+      "PackagePath": "staticwebassets\\img\\lcd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\led.webp",
+      "PackagePath": "staticwebassets\\img\\led.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\mouse.jpg",
+      "PackagePath": "staticwebassets\\img\\mouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\oven.webp",
+      "PackagePath": "staticwebassets\\img\\oven.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\pelmicrowave.jpg",
+      "PackagePath": "staticwebassets\\img\\pelmicrowave.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone1.webp",
+      "PackagePath": "staticwebassets\\img\\phone1.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone2.webp",
+      "PackagePath": "staticwebassets\\img\\phone2.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone3.webp",
+      "PackagePath": "staticwebassets\\img\\phone3.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone4.webp",
+      "PackagePath": "staticwebassets\\img\\phone4.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone5.webp",
+      "PackagePath": "staticwebassets\\img\\phone5.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone6.webp",
+      "PackagePath": "staticwebassets\\img\\phone6.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone7.webp",
+      "PackagePath": "staticwebassets\\img\\phone7.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone8.webp",
+      "PackagePath": "staticwebassets\\img\\phone8.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\phone9.webp",
+      "PackagePath": "staticwebassets\\img\\phone9.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product01.png",
+      "PackagePath": "staticwebassets\\img\\product01.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product02.png",
+      "PackagePath": "staticwebassets\\img\\product02.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product03.png",
+      "PackagePath": "staticwebassets\\img\\product03.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product04.png",
+      "PackagePath": "staticwebassets\\img\\product04.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product05.png",
+      "PackagePath": "staticwebassets\\img\\product05.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product06.png",
+      "PackagePath": "staticwebassets\\img\\product06.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product07.png",
+      "PackagePath": "staticwebassets\\img\\product07.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product08.png",
+      "PackagePath": "staticwebassets\\img\\product08.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\product09.png",
+      "PackagePath": "staticwebassets\\img\\product09.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\s1.jpg",
+      "PackagePath": "staticwebassets\\img\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\samsung-galaxy-s.jpg",
+      "PackagePath": "staticwebassets\\img\\samsung-galaxy-s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\samsung.jpg",
+      "PackagePath": "staticwebassets\\img\\samsung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\samsungultra.jpg",
+      "PackagePath": "staticwebassets\\img\\samsungultra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\shop01.png",
+      "PackagePath": "staticwebassets\\img\\shop01.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\shop02.png",
+      "PackagePath": "staticwebassets\\img\\shop02.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\shop03.png",
+      "PackagePath": "staticwebassets\\img\\shop03.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\vaccumcleaner.jpg",
+      "PackagePath": "staticwebassets\\img\\vaccumcleaner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\vaccumcleaner.webp",
+      "PackagePath": "staticwebassets\\img\\vaccumcleaner.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\vivox100.jpg",
+      "PackagePath": "staticwebassets\\img\\vivox100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\vivoy20.jpg",
+      "PackagePath": "staticwebassets\\img\\vivoy20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\washing machine.webp",
+      "PackagePath": "staticwebassets\\img\\washing machine.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\washing machine1.jpg",
+      "PackagePath": "staticwebassets\\img\\washing machine1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\img\\waterdispenser.jpg",
+      "PackagePath": "staticwebassets\\img\\waterdispenser.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\js\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\BizBulkApp\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BizBulkApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BizBulkApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BizBulkApp.props",
+      "PackagePath": "build\\BizBulkApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BizBulkApp.props",
+      "PackagePath": "buildMultiTargeting\\BizBulkApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BizBulkApp.props",
+      "PackagePath": "buildTransitive\\BizBulkApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

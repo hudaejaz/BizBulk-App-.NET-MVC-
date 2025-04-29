@@ -1,0 +1,160 @@
+﻿@model IEnumerable<BizBulkApp.Models.Product>
+
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- shop -->
+            <div class="col-md-4 col-xs-6">
+                <div class="shop">
+                    <div class="shop-img">
+                        <img src="./img/kitchen-appliances-history-evolution.jpg" alt="">
+                    </div>
+                    <div class="shop-body">
+                        <h3>Home Appliances<br>Collection</h3>
+                        <a href="@Url.Action("HomeAppliances", "Home")" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /shop -->
+            <!-- shop -->
+            <div class="col-md-4 col-xs-6">
+                <div class="shop">
+                    <div class="shop-img">
+                        <img src="./img/img2.jpg" alt="">
+                    </div>
+                    <div class="shop-body">
+                        <h3>Accessories<br>Collection</h3>
+                        <a href="@Url.Action("Accessories", "Home")" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /shop -->
+            <!-- shop -->
+            <div class="col-md-4 col-xs-6">
+                <div class="shop">
+                    <div class="shop-img">
+                        <img src="./img/img3.webp" alt="">
+                    </div>
+                    <div class="shop-body">
+                        <h3>Cameras<br>Collection</h3>
+                        <a href="@Url.Action("Cameras", "Home")" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /shop -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+
+<h1 class="text-center">Hot Deals</h1>
+
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- Products Section -->
+        <div class="row">
+            @foreach (var product in Model.Where(p => p.Category == "Hot Deals").Take(4))
+            {
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="product">
+                        <div class="product-img">
+                            <img src="@product.ImageUrl" alt="@product.Name" />
+                            <div class="product-label">
+                                @if (product.OldPrice.HasValue && product.Price < product.OldPrice)
+                                {
+                                    <span class="sale">-@(((product.OldPrice.Value - product.Price) / product.OldPrice.Value) * 100)%</span>
+                                }
+                                <span class="new">NEW</span>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <p class="product-category">@product.Category</p>
+                            <h3 class="product-name"><a href="#">@product.Name</a></h3>
+                            <h4 class="product-price">
+                                Rs.@product.Price
+                                @if (product.OldPrice.HasValue)
+                                {
+                                    <del class="product-old-price">Rs.@product.OldPrice</del>
+                                }
+                            </h4>
+                            <div class="product-rating">
+                                @for (int i = 0; i < 5; i++)
+                                {
+                                    if (i < 4) // Assuming product.Rating is the rating value
+                                    {
+                                        <i class="fa fa-star"></i>
+                                    }
+                                    else
+                                    {
+                                        <i class="fa fa-star-o"></i>
+                                    }
+                                }
+                            </div>
+                        </div>
+
+                        <!-- Add to Cart Form -->
+                        <form asp-action="AddToCart" asp-controller="Cart" method="post" class="add-to-cart-form">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <div class="add-to-cart">
+                                <button type="submit" class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-cart"></i> Add to Cart
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+        <!-- /Products Section -->
+    </div>
+</div>
+
+<!-- Countdown and Offer Text -->
+<div id="hot-deal" class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hot-deal">
+                    <ul class="hot-deal-countdown">
+                        <li>
+                            <div>
+                                <h3>02</h3>
+                                <span>Days</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>10</h3>
+                                <span>Hours</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>34</h3>
+                                <span>Mins</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>60</h3>
+                                <span>Secs</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <h2 class="text-uppercase">Hot Deal This Week</h2>
+                    <p>New Collection Up to 50% OFF</p>
+                    <a class="primary-btn cta-btn" href="#">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /Countdown and Offer Text -->

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<BizBulkApp.Models.Product>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <h2 class="text-center">Home Appliances</h2>
+            </div>
+            <!-- tab -->
+            <div id="tab1" class="tab-pane active">
+                @foreach (var product in Model)
+                {
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="@product.ImageUrl" alt="@product.Name" />
+                            </div>
+                            <div class="product-body">
+                                <p class="product-category">@product.Category</p>
+                                <h3 class="product-name"><a href="#">@product.Name</a></h3>
+                                <p class="product-description">@product.Description</p> <!-- Displaying the description -->
+                                <h4 class="product-price">
+                                    Rs.@product.Price <!-- Product price -->
+                                    @if (product.OldPrice.HasValue)
+                                    {
+                                        <del class="product-old-price">Rs.@product.OldPrice</del> <!-- Old price if exists -->
+                                    }
+                                </h4>
+                                <div class="product-stock">
+                                    @if (product.Stock > 0)
+                                    {
+                                        <span class="in-stock">In Stock (@product.Stock)</span> <!-- Displaying available stock -->
+                                    }
+                                    else
+                                    {
+                                        <span class="out-of-stock">Out of Stock</span> <!-- Displaying out of stock -->
+                                    }
+                                </div>
+                                <div class="product-btns">
+                                    <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+                                    <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+                                </div>
+                            </div>
+                            <!-- Add to Cart Form -->
+                            <form asp-action="AddToCart" asp-controller="Cart" method="post" class="add-to-cart-form">
+                                <input type="hidden" name="productId" value="@product.Id" />
+                                <div class="add-to-cart">
+                                    <button type="submit" class="add-to-cart-btn">
+                                        <i class="fa fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>

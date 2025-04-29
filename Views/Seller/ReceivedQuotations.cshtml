@@ -1,0 +1,72 @@
+﻿@model IEnumerable<BizBulkApp.Models.Quotation>
+
+@{
+    ViewData["Title"] = "Received Quotations";
+}
+
+<h2>Received Quotations</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Quotation ID</th>
+            <th>Buyer Name</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Comments</th>
+            <th>Details</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var quotation in Model)
+        {
+            <tr>
+                <td>@quotation.quotationTrackNumber</td>
+                <td>@quotation.Buyer.Name</td>
+                <td>@quotation.CreatedDate.ToShortDateString()</td>
+                <td>@quotation.Status</td>
+                <td>@quotation.Comments</td>
+                <td>
+                    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#details-@quotation.Id">
+                        View Items
+                    </button>
+                </td>
+                <td>
+                    @if (quotation.Status != "Confirmed")
+                    {
+                        <form asp-action="ConfirmQuotationSeller" method="post">
+                            <input type="hidden" name="quotationId" value="@quotation.Id" />
+                            <button type="submit" class="btn btn-success">Confirm Quotation</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+            <tr class="collapse" id="details-@quotation.Id">
+                <td colspan="7">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Quantity</th>
+                                <th>Price (per unit)</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in quotation.QuotationItems)
+                            {
+                                <tr>
+                                    <td>@item.Product.Name</td>
+                                    <td>@item.Quantity</td>
+                                    <td>Rs.@item.Price</td>
+                                    <td>Rs.@(item.Quantity * item.Price)</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

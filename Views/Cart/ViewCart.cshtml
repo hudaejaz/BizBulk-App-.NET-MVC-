@@ -1,0 +1,45 @@
+﻿@model BizBulkApp.Models.Order
+
+@{
+    ViewData["Title"] = "View Cart";
+}
+
+<h2>View Cart</h2>
+
+@if (Model.OrderItems.Count == 0)
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.OrderItems)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price</td>
+                    <td>@(item.Quantity * item.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Total Amount:Rs.@Model.TotalAmount</h3>
+
+    <!-- Submit button to confirm the quotation -->
+    <form asp-action="QuotationForm" asp-controller="Quotation" method="post">
+        <!-- You can pass any required data through hidden fields if needed -->
+        <input type="hidden" name="orderId" value="@Model.Id" />  <!-- Pass the Order ID if required in the action method -->
+        <button type="submit" class="btn btn-primary">Confirm Quotation</button>
+    </form>
+}

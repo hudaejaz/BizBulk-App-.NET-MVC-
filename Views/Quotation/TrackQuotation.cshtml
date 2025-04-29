@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "Track Quotation";
+}
+
+<form id="trackQuotationForm" class="quotation-form">
+    <div class="form-group">
+        <label for="quotationTrackNumber">Quotation Track Number</label>
+        <input type="number" class="form-control" id="quotationTrackNumber" name="quotationTrackNumber" required />
+    </div>
+    <button type="submit" class="btn btn-primary check-status-button">Track</button>
+</form>
+
+<div id="quotationDetails"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#trackQuotationForm').on('submit', function (e) {
+            e.preventDefault(); // Prevent the default form submission
+
+            var trackNumber = $('#quotationTrackNumber').val();
+
+            $.ajax({
+                url: '@Url.Action("TrackQuotation", "Quotation")',
+                type: 'POST',
+                data: { quotationTrackNumber: trackNumber },
+                success: function (response) {
+                    if (response.success === false) {
+                        $('#quotationDetails').html(
+                            '<div class="alert alert-danger">' + response.message + '</div>'
+                        );
+                    } else {
+                        $('#quotationDetails').html(response); // Render the partial view
+                    }
+                },
+                error: function () {
+                    $('#quotationDetails').html(
+                        '<div class="alert alert-danger">An error occurred. Please try again.</div>'
+                    );
+                }
+            });
+        });
+    });
+</script>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<!-- Styles -->
+<style>
+    .quotation-status {
+        text-align: center;
+        margin: 50px auto;
+        max-width: 600px;
+    }
+
+    .quotation-form {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .quotation-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .quotation-form input[type="text"], .quotation-form input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+    .check-status-button {
+        padding: 10px 20px;
+        background-color: #ffc107;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        color: #000;
+        cursor: pointer;
+    }
+
+        .check-status-button:hover {
+            background-color: #e0a800;
+        }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .quotation-result {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f1f1f1;
+        text-align: left;
+    }
+
+    .alert-danger {
+        margin-top: 20px;
+    }
+</style>
